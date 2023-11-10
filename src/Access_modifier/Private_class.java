@@ -1,6 +1,6 @@
 package Access_modifier;
 
-public class pri {
+public class private {
 	private int a=10;//private method visible only inside the class.
 	private int b=20;
 	void display() {//default method it is visible to the whole package.
