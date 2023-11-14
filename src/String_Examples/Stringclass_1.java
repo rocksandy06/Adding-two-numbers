@@ -1,6 +1,6 @@
-package String;
+package String_Examples;
 
-public class String_class {
+public class Stringclass_1 {
 
 	public static void main(String[] args) {
 		String str1;
@@ -15,15 +15,7 @@ public class String_class {
 		System.out.println(str3);
 		str4="today is present and yesterday is past";
 		System.out.println(str4.length());
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
