@@ -50,25 +50,19 @@ public class CircularLinkedList {
 				current=current.next;
 			}while(current!=head);
 			System.out.println();
+			}
+		}
+}
 		
-	}
-		}
-	 public static void main(String[] args) {
-	    	CircularLinkedList cl=new CircularLinkedList();
-	    	cl.add(8);
-	    	cl.add(18);
-	        cl.add(32);
-	        cl.add(47);
-	        cl.add(74);
-	    	
-	    	cl.display();
-			
+	
+		
+	 
 
 			
-		}
+		
 
 
-	}
+	
 		
 		
 
