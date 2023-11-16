@@ -10,6 +10,7 @@ public class Stringclass_1 {
 		str1="arun";
 		str2="leo";
 		str3="santhosh kumar";
+		str2.
 		System.out.println(str1);
 		System.out.println(str2);
 		System.out.println(str3);
