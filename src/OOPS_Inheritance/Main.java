@@ -8,6 +8,6 @@ public class Main {
             Son o =new Son();
             o.car();
             o.house();
-            System.out.println();
+            
     	    }
     	}
