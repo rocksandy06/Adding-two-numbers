@@ -1,13 +1,19 @@
 package Single_Inheritance;
 
 public class Class_1 {
-	char gender='M';
-	
-	    void print() {
-	        System.out.println("Parent class");
-	    }
-	}
+	class Animal {
+		private void eat() {
+			// TODO Auto-generated method stub
+			this.eat();
+		}
+		void eat1() {
+		      System.out.println("Animal is eating...");
+		   }
+		}
 
+}
+
+	
 	
 
 	

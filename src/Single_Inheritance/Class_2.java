@@ -1,15 +1,24 @@
 package Single_Inheritance;
 
 public class Class_2 extends Class_1 {
-	 
-	char gender='M';
+	class Dog extends Animal {
+		 private void bark() {
+				// TODO Auto-generated method stub
+				this.bark();
+				
+			}
+		}
 	
-    void print() {
-        System.out.println("Son");
+		   void bark() {
+		      System.out.println("Dog is barking...");
+		   }
+		  
+	 
+
 	
 	
 		   
 		    
 		}
 
-}
+

@@ -1,26 +1,37 @@
 package Multiple_Inheritance;
-interface Interface1 {
-    void method1();
+
+interface InterfaceA {
+    void methodA();
 }
 
-interface Interface2 {
-    void method2();
+interface InterfaceB {
+    void methodB();
 }
 
-class MyClass implements Interface1, Interface2 {
-    public void method1() {
-        System.out.println("Method 1 implementation");
+class MyClass implements InterfaceA, InterfaceB {
+    public void methodA() {
+        System.out.println("A:");
     }
 
-    public void method2() {
-        System.out.println("Method 2 implementation");
+    public void methodB() {
+        System.out.println("B:");
+    }
+
+    public void myMethod() {
+        System.out.println("MyClass specific method");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        MyClass myObj = new MyClass();
-        myObj.method1();
-        myObj.method2();
+        MyClass d = new MyClass();
+        d.methodA(); 
+        System.out.println("santhosh");
+        d.methodB(); 
+        System.out.println("kumar");
+        d.myMethod();
+        
+        
+        
     }
 }

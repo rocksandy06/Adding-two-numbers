@@ -1,18 +1,25 @@
 package String;
 
+import java.util.Scanner;
+
 public class String_Example_1 {
 
-	public static void main(String[] args) {
-		  
-			String s1="java";  
-			char ch[]={'s','t','r','i','n','g','s'};  
-			String s2=new String(ch);  
-			String s3=new String("example");  
-			System.out.println(s1);  
-			System.out.println(s2);  
-			System.out.println(s3);  
-			 
+         public static void main(String[] args) {
+			   String input = "welcome ALL";
+			   System.out.println(input.replace("", " ").substring(1));
+			   System.out.println(input.replace("ALL", "WORLD"));
+			   System.out.println(input.charAt(5));
+			   
+			   
+			   String input2="Hello Hello World";
+			   String input1="Welcome Hello World";
+			   System.out.println(input.co	
+			   
+			   
+			       
+			    
+			        }
+			    }
+			
 
-	}
 
-}
