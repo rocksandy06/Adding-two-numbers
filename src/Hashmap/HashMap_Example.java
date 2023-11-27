@@ -36,6 +36,7 @@ public class HashMap_Example {
 		System.out.println(hashmap.entrySet());
 		
 		
+		
 		String search = "Name";
 		hashmap.forEach((key,value) ->{
 			//CharSequence search = null;
@@ -46,8 +47,11 @@ public class HashMap_Example {
 		
 		
 		System.out.println(search+"contains "+answer);
+	
 		
-		
+		hashmap.clear();
+		System.out.println("contains: "+hashmap.entrySet());
+		System.out.println("contains:"+hashmap.isEmpty());
 		
 		
 		
