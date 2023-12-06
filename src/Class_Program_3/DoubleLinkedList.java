@@ -1,7 +1,5 @@
 package Class_Program_3;
 
-
-
 public class DoubleLinkedList {
 		class node{
 			int data;
@@ -49,6 +47,22 @@ public class DoubleLinkedList {
 			
 			head.Previous=null;
 			
+		}
+		
+		public int length(node head2) {
+			if(head2==null) {
+				System.out.println("RETURN 0");
+			
+			return 0;
+			}
+			System.out.println(head2.data+":FUNCTION CALL");
+			int len=length(head2.next);
+			len=len+1;
+			System.out.println(head2.data+":"+len);
+			return len;
+		}
+		public int length() {
+			return length(head);
 		}
 
 		public void display() {

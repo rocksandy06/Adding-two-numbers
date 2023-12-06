@@ -3,10 +3,8 @@ package Tree;
 public class BinaryTree {
 	 
 
-	    public static void main(String[] args)   
-	    {  
-	        new BinaryTree().run();  
-	    }  
+	
+	    
 	    static class Node   
 	    {  
 	        Node left;  
@@ -16,19 +14,22 @@ public class BinaryTree {
 	        {  
 	            this.value = value;  
 	        }  
-	    }  
-	    public void run()   
-	    {  
-	        Node rootnode = new Node(25);  
-	        System.out.println("Building tree with root value " + rootnode.value);  
-	        System.out.println("=================================");  
-	        insert(rootnode, 11);  
-	        insert(rootnode, 15);  
-	        insert(rootnode, 16);  
+	    } 
+	    public static void main(String[] args)   {
+	    	
+	    
+	        Node rootnode = new Node(15);  
+	         
+	      
+	          
+	        insert(rootnode, 12);  
+	        insert(rootnode, 21);  
 	        insert(rootnode, 23);  
-	        insert(rootnode, 79);  
+	        insert(rootnode, 16);  
+	        insert(rootnode, 10);
+	        insert(rootnode, 13);
 	    }  
-	    public void insert(Node node, int value)   
+	    public static void insert(Node node, int value)   
 	    {  
 	        if (value < node.value)   
 	        {  
