@@ -14,7 +14,7 @@ public class DoubleLinledListatInsertFirst {
     	
     	dList.display();
     	
-    	CircularLinkedList cll = new CircularLinkedList();
+    	/*CircularLinkedList cll = new CircularLinkedList();
     	cll.add(23);
     	cll.add(45);
     	cll.add(54);
@@ -24,7 +24,7 @@ public class DoubleLinledListatInsertFirst {
     	
     	cll.display();
 		
-
+*/
 		
 	
 		
